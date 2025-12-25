@@ -115,12 +115,25 @@ nav .container {
     font-family: 'Space Mono', monospace;
     font-size: 1.1rem;
     font-weight: 700;
-    color: var(--accent-cyber);
+    color: var(--text-primary);
     letter-spacing: -0.5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
-.logo span {
-    color: var(--text-muted);
+.logo-icon {
+    width: 36px;
+    height: 36px;
+}
+
+.logo-text {
+    display: flex;
+    gap: 4px;
+}
+
+.logo-accent {
+    color: var(--accent-cyber);
 }
 
 .nav-right {
