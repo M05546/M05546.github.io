@@ -968,3 +968,21 @@ html.js-enabled .fade-in.visible {
         transition: none;
     }
 }
+
+/* CV Related Styles */
+.cv-downloads {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.cv-downloads p {
+    color: var(--text-secondary);
+    margin-bottom: 16px;
+}
+
+.cv-buttons {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
